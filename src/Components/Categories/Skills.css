@@ -1,0 +1,129 @@
+.jobContainer {
+  width: 100%;
+  
+}
+
+.categorySection {
+  margin: 20px;
+  
+}
+
+.categoryContainer {
+  overflow-x: auto;
+  white-space: nowrap;
+  
+}
+
+.skillsContainer {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.horizontalCard {
+  display: inline-block;
+  padding: 10px;
+  margin: 20px;
+  width: 400px;
+  white-space: normal;
+  position: relative; 
+  border: 1px solid #e0e0e0;
+}
+
+.horizontalCard::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #ccc;
+}
+
+.nameSliderLevelContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.nameLevelContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Space items horizontally */
+}
+
+.nameContainer {
+  display: flex;
+  align-items: flex-start;
+}
+
+.levelContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end; /* Align items at the end vertically */
+  justify-content: flex-end; /* Align items at the end horizontally */
+}
+
+.levelText {
+  margin-left: 5px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.levelIndicator:hover .levelText {
+  opacity: 1;
+}
+
+
+.levelText {
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  transform: translate(-200%, -50%);
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.levelIndicator:hover .levelText {
+  opacity: 1;
+}
+
+
+
+.sliderContainer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+/* Additional styles for level classes */
+.levelIndicator {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-right: 5px;
+}
+
+.beginner {
+  background-color: green;
+}
+
+.intermediate {
+  background-color: orange;
+}
+
+.advanced {
+  background-color: red;
+}
+
+
+
+.lineUnderCards {
+  width: 100%;
+  height: 3px;
+  background-color: blue;
+  margin-top: 20px;
+}

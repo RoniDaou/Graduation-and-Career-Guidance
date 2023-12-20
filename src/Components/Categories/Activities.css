@@ -1,0 +1,20 @@
+/* Activities.css */
+
+.activities-container {
+
+    padding: 10px;
+  }
+  
+  .activity-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+  
+  .activity-card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    max-width: 500px; 
+  }
+  

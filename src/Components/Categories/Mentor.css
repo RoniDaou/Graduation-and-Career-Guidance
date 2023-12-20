@@ -1,0 +1,82 @@
+/* Mentor.css */
+
+.mentor-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 75vh;
+    font-weight: bold; 
+  }
+  
+  .mentor-containerv2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Updated alignment to start from the left */
+    justify-content: center;
+    height: 50vh;
+    font-weight: bold;
+  }
+  
+  /* Mentor.css */
+
+.mentor-card {
+  width: 75%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  text-align: center; /* Keep the overall card centered */
+}
+
+.mentor-card p {
+  text-align: left; /* Align the text inside paragraphs to the left */
+}
+
+
+  .page-title {
+    margin-bottom: 20px;
+  }
+  
+  
+  .options-container {
+    display: flex;
+    flex-wrap: wrap; /* Allow options to wrap to the next line */
+    justify-content: center; /* Center options horizontally */
+    align-items: center; /* Center options vertically */
+    margin-top: 20px;
+  }
+  
+  .excellent-sign {
+    font-size: 20px; /* Increased font size for "Be mentored" */
+    color: #888;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold; 
+  }
+  
+  .card-text {
+    font-size: 16px;
+    margin-left: 5px;
+  }
+  
+  .option-checkbox {
+    margin-right: 10px;
+    margin-left: 30px; /* Increased margin-left for more space between options */
+  }
+  
+  .option-button {
+    padding: 8px 16px;
+    font-size: 16px;
+  }
+  
+  .save-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  

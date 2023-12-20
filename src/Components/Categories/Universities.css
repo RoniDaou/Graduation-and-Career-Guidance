@@ -1,0 +1,46 @@
+.university-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  margin: 20px;
+  
+}
+
+.university-card {
+  background-color: #ffffff33;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.3s;
+  margin: 10px; 
+  padding: 20px; 
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+}
+
+
+.university-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  background-color: #96d5ff; 
+}
+
+.card-header {
+  font-weight: bold;
+  font-size: 1.2em; 
+}
+
+
+.university-card .card-content {
+  padding: 10px;
+}
+
+.university-card a {
+  color: #2980b9;
+  text-decoration: none;
+}
+
+.university-card a:hover {
+  text-decoration: underline;
+}

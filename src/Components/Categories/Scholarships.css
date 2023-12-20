@@ -1,0 +1,36 @@
+.scholarships-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+  }
+  
+  .scholarship-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 15px;
+    width: 80%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .scholarship-card h2 {
+    margin-bottom: 10px;
+  }
+  
+  .scholarship-details {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .scholarship-details p {
+    margin-bottom: 8px;
+  }
+  
+  .scholarship-details a {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #007bff;
+  }
+  
