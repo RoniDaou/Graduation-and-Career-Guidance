@@ -1,0 +1,17 @@
+/* Add this to your existing CSS or styling */
+.footer {
+    position: relative; /* Ensure the parent container has a relative position */
+}
+  
+.icon-bg {
+    background-color: transparent; /* Set the background color to transparent */
+    position: relative; /* Ensure the icon container has a relative position */
+    z-index: 1; /* Set a higher z-index to ensure icons are above the blue background */
+}
+
+.icon {
+    color: white !important;
+  }
+
+
+  
